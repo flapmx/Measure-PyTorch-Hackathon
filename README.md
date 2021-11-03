@@ -18,13 +18,13 @@ jump to the configuration section to use it!
 
 1.) Install the dependencies using pip. We recommend doing this in a [virtual environment](https://docs.python.org/3/tutorial/venv.html#creating-virtual-environments).
 
-```
+```shell
 pip3 install -r requirements.txt
 ```
 
 2.) Run the script with python.
 
-```
+```shell
 python3 snippet.py
 ```
 
@@ -38,7 +38,7 @@ This snippet is easy to modify.
 
 Navigate to `snippet.py` and find the following section at the top of the file:
 
-```
+```python
 # Configurable options
 MODEL_FILE = "model.py"
 STATE_FILE = "squeezenet1_1-b8a52dc0.pth"
