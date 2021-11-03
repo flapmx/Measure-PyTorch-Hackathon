@@ -46,3 +46,6 @@ OUTPUT_PATH = "output.onnx"
 ```
 
 These variables can be modified to take in any files PyTorch files of your choosing and output the appropriate onnx name. 
+
+
+To deploy models and run inferences end-to-end, please use the provided web app. 
