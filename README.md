@@ -1,7 +1,19 @@
-# Overview
+# Table of Contents
+1. [Overview](#overview)
+2. [Quick Start](#quickstart)
+3. [Configuration](#configuration)
+
+
+<a name="overview"></a>
+## Overview
 
 This repo contains some code-snippets from our integration. Namely, the PyTorch model instantiation and ONNX converter function.
 
+It includes a lightweight SqueezeNet model to make running the snippet as easy as possible. Feel free to provide your own model and 
+jump to the configuration section to use it!
+
+
+<a name="quickstart"></a>
 ## Quick start
 
 1.) Install the dependencies using pip. We recommend doing this in a [virtual environment](https://docs.python.org/3/tutorial/venv.html#creating-virtual-environments).
@@ -18,6 +30,8 @@ python3 snippet.py
 
 You will see an ONNX file outputted to the root directory.
 
+
+<a name="configuration"></a>
 ## Configuration
 
 This snippet is easy to modify. 
